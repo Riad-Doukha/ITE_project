@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main</title>
   </head>
-  <body style="margin: 0">
+  <body marginwidth="0" marginheight="0">
     <h1 align="center">
       Welcome Dear Visitor, Please Sign In to use our Services
     </h1>
@@ -14,10 +14,10 @@
 
     <center>
       <form  action="e.html" method="get" target="formFrame">
-        <table background="ocean.gif" cellspacing="20">
+        <table background="./assets/ocean.gif" cellspacing="20">
           <tr>
             <td colspan="2" align="right">
-              <label for="username"><b>Username:</b></label>
+              <label for="username"><font color="white"><b>Username</b></font></label>
             </td>
             <td colspan="2" align="left">
               <input type="text" id="username" name="username" />
@@ -27,7 +27,7 @@
           <!-- Password Row -->
           <tr>
             <td colspan="2" align="right">
-              <label for="password"><b> Password:</b></label>
+              <label for="password"><font color="white"><b>Password</b></font></label>
             </td>
             <td colspan="2" align="left">
               <input type="password" id="password" name="password" />
@@ -61,7 +61,7 @@
       height="100%"
       scrollamount="10"
     >
-      <video src="./guy.mp4" autoplay loop muted playsinline width="75"></video>
+      <video src="./assets/guy.mp4" autoplay loop muted playsinline width="75"></video>
     </marquee>
   </body>
 </html>
